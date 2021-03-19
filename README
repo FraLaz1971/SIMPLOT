@@ -11,7 +11,7 @@ TODO:
 2. add separated labels for x and y axis
 3. re-implement in c/c++ with libplot/libplotter by gnu plotutils
 ###
-to run
+# to run
 make plot
 ##
 ../SIMPLOT
