@@ -1,0 +1,26 @@
+BASIC language plot function example.
+define function points and plot them
+in a graph using CGA graphics.
+It needs pcbasic interpreter
+or MS BASIC, gwbasic, QBASIC.
+With simple changes can be adapted
+to other BASIC dialects.
+###
+TODO: 
+1. add automatic selection of x and y ranges
+2. add separated labels for x and y axis
+3. re-implement in c/c++ with libplot/libplotter by gnu plotutils
+###
+to run
+make plot
+##
+../SIMPLOT
+├── gwsimplot.bas plotting code, expect to be merged in simplot.bas
+|   with POINTS.BAS
+├── Makefile
+|
+├── README
+|
+└── simpts.bas ---> define math function and create points data file
+                    POINTS.BAS
+the files POINTS.BAS and simplot.bas are created at runtime
